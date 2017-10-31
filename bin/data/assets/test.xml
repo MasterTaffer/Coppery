@@ -1,0 +1,44 @@
+<!--
+    This is file used for testing the TOML DataTable parser
+    see the AngelScript tests
+-->
+
+<table>
+	<!-- root element must always be a table -->
+	<string key="v_string" value="Xml test" />
+	<int key="v_int" value="3215665" />
+	<double key="v_double" value="64.01234" />
+	<!-- unlike TOML, mixed arrays are supported -->
+	<table key="v_array1">
+		<int value="2"/>
+		<string value="4"/>
+		<int value="8"/>
+		<string value="16"/>
+	</table>
+
+	<!-- unlike TOML, hashes have a special data type -->
+	<hstring key="v_hash" value="hash this pls" />
+
+
+	<table key="arrayoftables">
+		<table>
+			<int key="v_int" value="4" />
+			<string key="v_string" value="4" />
+		</table>
+		<table>
+			<int key="v_int" value="5" />
+			<string key="v_string" value="5" />
+		</table>
+		<table>
+			<int key="v_int" value="6" />
+			<string key="v_string" value="6" />
+		</table>
+
+	</table>
+
+</table>
+
+
+
+
+

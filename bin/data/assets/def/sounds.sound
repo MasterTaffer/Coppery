@@ -1,0 +1,9 @@
+#Name : filename : flags : volume : pitch min : max : distance : attenuation
+
+beep1		:beep1.ogg			:0	:0.2
+effect1     :effect1.ogg        :0  :0.7
+boom        :boom.ogg        :0  :0.7
+splat        :splat.ogg        :0  :0.7
+shoot        :shoot.ogg        :0  :0.7
+music        :music.ogg        :3  :0.7
+

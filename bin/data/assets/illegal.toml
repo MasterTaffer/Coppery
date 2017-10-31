@@ -1,0 +1,10 @@
+#This is file used for testing the TOML DataTable parser
+#see the AngelScript tests
+[Subtable]
+v_value1=24
+v_value2=24
+[Subtable.Subtable1]
+v_value1=24
+v_valueö~~2=24
+[Subtable.Subtable]
+v_illegal_array = [[1,"a"], "b", "c", "d"]

@@ -1,0 +1,16 @@
+<!--
+    This is file used for testing the TOML DataTable parser
+    see the AngelScript tests
+-->
+
+<table> 
+	<string key="\">
+		&&&
+		<!- some illegal xml=?=
+</table>
+<string
+
+
+
+
+

@@ -1,0 +1,40 @@
+#This is file used for testing the TOML DataTable parser
+#see the AngelScript tests
+
+v_string = "Toml test"
+v_int = 3215665
+v_bool = true
+v_double = 64.01234
+v_array1 = [2, 4, 8, 16]
+v_array2 = ["a", "b", "c", "d"]
+
+# A key with " (hash-key)" appended at the end will result in automatic
+# generation of a hash value
+
+"v_str (hash-key)" = "hash this pls" 
+
+# will generate automatically the key value pair 
+# v_str = Hash("hash this pls")
+# where Hash is the application wide string hashing function
+
+[subtable]
+
+v_string = "test"
+
+
+[subtable.subtable]
+
+v_string = "test2"
+
+[[arrayoftables]]
+
+v_int = 4
+v_string = "4"
+
+[[arrayoftables]]
+v_int = 5
+v_string = "5"
+
+[[arrayoftables]]
+v_int = 6
+v_string = "6"
