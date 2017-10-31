@@ -77,3 +77,7 @@ haven't tested them exhaustively.
 
 Soon, maybe.
 
+## Links
+
+[The demo game in action](https://www.youtube.com/watch?v=FLUL-r_BKBM)
+
